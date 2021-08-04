@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "storage": "fsjstd-restapi.db",
+    "host": "127.0.0.1",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "storage": "fsjstd-restapi.db",
+    "host": "127.0.0.1",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "storage": "fsjstd-restapi.db",
+    "host": "127.0.0.1",
+    "dialect": "sqlite"
+  }
+}
