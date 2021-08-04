@@ -99,7 +99,7 @@ class UpdateCourse extends Component {
         })
         .catch(err => {
             console.log('Something went wrong: ', err);
-            this.props.history.push('/error');
+            this.props.history.push('/notfound');
         });
     }
 
