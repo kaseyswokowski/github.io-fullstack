@@ -133,7 +133,7 @@ class CourseDetail extends Component {
                         </div>
                         <div className="course--description">
                         <div>
-                            <ReactMarkdown source={description} />
+                            <ReactMarkdown children={description} />
                         </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ class CourseDetail extends Component {
                             <li className="course--stats--list--item">
                             <h4>Materials Needed</h4>
                             <ul>
-                                <ReactMarkdown source={materialsNeeded} />
+                                <ReactMarkdown children={materialsNeeded} />
                             </ul>
                             </li>
                         </ul>
