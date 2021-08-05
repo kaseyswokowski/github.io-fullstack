@@ -146,7 +146,7 @@ router.put('/courses/:id', authenticateUser, asyncHelper(async(req, res) => {
           error.name === 'SequelizeUniqueConstraintError'
         ) {
           const errors = error.errors.map((err) => err.message);
-          res.status(400).json({ errors });
+          res.status(400).json( errors );
         } else {
           throw error;
         }
